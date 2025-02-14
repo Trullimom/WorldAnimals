@@ -1,0 +1,118 @@
+body {
+  /* background-color: #f8f3e0; */
+  background-color: mix(#fff, #e91e63, 82%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(37, 37, 37);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+
+
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.tier-bild {
+  height: 400px;
+  transition: transform 0.5s ease;
+  margin-top: 30px;
+}
+
+.tier-bild:hover {
+  transform: rotate(-25deg);
+}
+
+.halloText {
+  font-size: 100px;
+
+  
+}
+
+
+button {
+  margin: 10px;
+  padding: 15px 45px;
+  opacity: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  background-color: rgb(148, 148, 148);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: rgb(88, 88, 88);
+  cursor: pointer;
+  padding: 20px 50px;
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+
+  color: black;
+}
+
+.titel {
+  color: antiquewhite;
+  font-size: 50px;
+}
+
+.titel-dark {
+  color: rgb(43, 43, 43);
+  font-size: 50px;
+}
+
+.nav {
+  background-color: rgb(0, 0, 0);
+  opacity: 30%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+}
+
+.nav>a {
+  margin: 30px;
+
+}
+
+.nav>a:hover {
+  color: rgb(255, 5, 5);
+}
+
+.icons {
+  margin-left: 20px;
+  justify-content: center;
+  align-items: start;
+}
+
+.home:hover,
+.karte:hover,
+#earth:hover {
+  transform: rotate(25deg);
+}
+
+.karte,
+.home {
+  width: 100px;
+  height: 80px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+#earth {
+  height: 400px;
+}
