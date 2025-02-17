@@ -19,6 +19,7 @@ body {
 }
 
 .tier-bild {
+
   height: 400px;
   transition: transform 0.5s ease;
   margin-top: 30px;
@@ -29,11 +30,20 @@ body {
 }
 
 .halloText {
-  font-size: 100px;
-
-  
+  font-size: 100px; 
 }
 
+div .card{
+  display: inline-block;
+  background-color: #ffe0eb;
+  background-position: left;
+
+}
+
+div .card:hover{
+  background-color: #f8abc6;
+  cursor: pointer;
+}
 
 button {
   margin: 10px;
@@ -78,9 +88,9 @@ a:hover {
 .nav {
   background-color: rgb(0, 0, 0);
   opacity: 30%;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 
 }
 
